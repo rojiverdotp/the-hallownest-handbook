@@ -1,0 +1,103 @@
+/*Creates new font faces*/
+
+@font-face { 
+    font-family: TrojanPro; 
+    src: url('../fonts/TrajanPro.otf'); 
+} 
+
+@font-face { 
+    font-family: Perpetua; 
+    src: url('../fonts/Perpetua.otf');
+} 
+
+
+/*Lets certain elements use the custom fonts*/
+
+p, ul {
+    color: white;
+    font-family: Perpetua;
+}
+
+h1, h2 {
+    color: white;
+    font-family: TrojanPro;
+}
+
+
+/*Makes background color gray*/
+body {
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Used for making the header and the footer*/
+header, footer {
+    background-color: black;
+    overflow: hidden;
+}
+
+header h2, footer h2 {
+    color: white;
+    padding-left: 100px;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: white;
+    text-decoration: none;
+}
+
+
+/*Sets up the div where all the information is placed into*/
+main {
+    background-color: rgba(0, 0, 0, 25%);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px; 
+    width: 1024px;
+}
+
+
+/*Sets up the title*/
+.title {
+    background-color: rgba(0, 0, 0, 25%);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+/*Sets up the paragraph*/
+article {
+    background-color: rgba(0, 0, 0, 25%);
+    margin-left: 155px;
+    margin-right: 115px;
+}
+
+
+/*Sets up the social media links*/
+.fb {
+  width: 48px;
+  height: 48px;
+  float: left;
+  margin: 20px 0px 20px 675px;
+  background: url(../images/icons.png) 0px 0px;
+}
+
+.yt {
+  width: 48px;
+  height: 48px;
+  float: left;
+  margin: 20px 0px 20px 10px;
+  background: url(../images/icons.png) 48px 0px;
+}
+
+.twt {
+  width: 48px;
+  height: 48px;
+  float: left;
+  margin: 20px 0px 20px 10px;
+  background: url(../images/icons.png) 96px 0px;
+}
+

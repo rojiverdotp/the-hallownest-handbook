@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <!--Title of website-->
+        <title>The Hallownest Handbook</title>
+
+        <!--Meta tags-->
+        <meta charset="UTF-8">
+        <meta name="author" content="Rojiver Luke T. Pamerol">
+        <meta name="keywords" content="Hallownest">
+        <meta name="revised" content="01-10-2020">
+        
+        <!--Icon and external style-->
+        <link rel="icon" href="../images/seal.png" type="image/png">
+        <link rel="stylesheet" href="css/styles.css">
+
+        <!--Internal style-->
+        <style>
+
+            /*Dictates the height of main div*/
+            main {
+                height: 689px;    
+            }
+            
+            /*Sets the size of the introduction*/
+            .title {
+                width: 683px;
+                height: 110px;
+            }
+
+            /*Used for the image at the left*/
+            #intro1 {
+                width: 100px;
+                height: 100px;
+                float: left;
+                margin-left: 40px;
+            }
+
+            /*And the text at the right*/
+            #intro2 {
+                font-size: 18px;
+                margin-left: 180px;
+                margin-right: 25px;
+            }
+
+            /*Positions the map*/
+            #map {
+                width: 567px;
+                height: 369px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <!--Header-->
+        <header>
+            <h2><a href="index.html">The Hallownest Handbook</a></h2>
+        </header>
+
+        <!--Main content-->
+        <main>
+
+            <!--Introduction-->
+            <section class="title">
+                <img id="intro1" src="images/home/quirrel.png" alt="Quirrel">
+
+                <div id="intro2">
+                    <p style="padding-top: 15px;">“Welcome, fellow explorer. I see you are here to learn more about Hallownest – the glorious and everlasting kingdom under the surface! I hope you will be astounded by the many creatures and different points of interest that you can see here. Have fun browsing!” - Quirrel
+                    </p>
+                </div>
+            </section>
+
+            <br><br>
+
+            <!--Clickable map-->
+            <img id="map" src="images/home/map.png" alt="Map of Hallownest" usemap="#hallownest">
+
+            <map name="hallownest">
+                <area shape="poly" coords="172, 60, 200, 60, 200, 45, 290, 45, 290, 90, 172, 90" href="htdocs/dirtmouth.html">
+                <area shape="poly" coords="203, 95, 333, 95, 333, 143, 296, 143, 296, 132, 203, 132" href="htdocs/crossroads.html">
+                <area shape="poly" coords="22, 75, 130, 75, 130, 95, 195, 95, 195, 140, 90, 140, 90, 108, 22, 106" href="htdocs/greenpath.html">
+            </map>
+
+            <p style="text-align: center;"><i>Click on one of the areas to know more about them! (Only Dirtmouth, Forgotten Crossroads, and Greenpath are available for now)</i> <br> <i>Team Cherry. (2017).</i> Hollow Knight (1.4.3.2) [Video game]</p>
+
+            <br>
+
+            <!--Audio-->
+            <audio controls autoplay loop style="margin-left: 368px">
+                <source src="mmfiles/index.mp3" type="audio/mpeg">
+            </audio>
+        </main>
+
+        <!--Footer-->
+        <footer>
+
+            <!--Quick navigation-->
+            <p style="margin: 20px 0px 0px 100px; float: left"><a href="dirtmouth.html">Dirtmouth</a> | <a href="crossroads.html">Forgotten Crossroads</a> | <a href="greenpath.html">Greenpath</a></p>
+
+            <!--Social media links-->
+            <a href="https://www.facebook.com/teamcherrygames" target="_blank"><div class="fb"></div></a>
+            <a href="https://www.youtube.com/user/teamcherrygames" target="_blank"><div class="yt"></div></a>
+            <a href="https://twitter.com/TeamCherryGames" target="_blank"><div class="twt"></div></a>
+
+            <br><br>
+        </footer>
+    </body>
+</html>
